@@ -1,0 +1,115 @@
+.main {
+    color: white;
+    background-color: black;
+}
+
+.headtxt {
+    color: black;
+}
+
+.buttondark{
+  background-color: black;
+       color: white;
+}
+
+.buttondark:hover {
+   background-color: white;
+   color: black;
+}
+
+* { margin: 0 auto;
+}
+
+body{
+    margin: 0 auto;
+  }
+
+button{
+  background-color: white;
+     color: black;
+     cursor:pointer;
+     float: right;
+}
+
+ button:hover {
+    background-color: black;
+    color: white;
+}
+p{
+  max-width: 40%
+
+}
+
+header{
+  flex-direction: row;
+}
+
+h1{
+  float: left;
+}
+
+header {
+	height: 70px;
+	background-color: #3e739d;
+	border-bottom: 1px solid #494949;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header  h1 {
+	width: calc(100% - 160px);
+	text-align: center;
+	color: white;
+}
+header  .top {
+	position: absolute;
+	left: 20px;
+}
+header  .top a.menu_icon i {
+	color: #FEFEFE;
+	font-size: 40px;
+	padding-top: 5px;
+	transition: .2s ease;
+}
+header  .top a.menu_icon:hover i {
+	color: #fff;
+}
+nav.menu {
+	min-height: calc(100vh - 121px);
+	background-color: black;
+	position: absolute;
+	left: -350px;
+	transition: .3s all;
+}
+main {
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+
+.menu_show {
+	left: 0!important;
+}
+
+@media screen and (max-width: 425px) {
+	header h1 {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 360px) {
+	nav.menu {
+		width: 100%;
+		left: -100%;
+	}
+}
+li{
+    list-style:none;
+  }
+
+  .bigFont li{
+font-size:70px;
+color: #FFFFFF;
+text-decoration: none;
+padding: 30px;
+}
